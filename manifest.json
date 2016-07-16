@@ -1,0 +1,23 @@
+{
+  "manifest version": 2,
+  "name": "ImdbHider",
+  "version": "0.01",
+  "icon": {
+    "128": "imdb-icon.png"
+  },
+  "browser_actions": {
+    "default_icon": "imdb-icon.png",
+    "default_popup": "Index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "jquery-2.1.4.min.js",
+        "hider.js"
+      ]
+    }
+  ]
+}
