@@ -5,7 +5,7 @@
   "icon": {
     "128": "imdb-icon.png"
   },
-  "browser_actions": {
+  "browser_action": {
     "default_icon": "imdb-icon.png",
     "default_popup": "Index.html"
   },
